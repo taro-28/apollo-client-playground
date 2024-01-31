@@ -14,7 +14,8 @@
       "all": true,
       "style": {
         "useNamingConvention": "off",
-        "noDefaultExport": "off"
+        "noDefaultExport": "off",
+        "noNonNullAssertion": "off"
       },
       "nursery": {
         "useFilenamingConvention": "off"
@@ -25,6 +26,6 @@
     }
   },
   "files": {
-    "ignore": ["node_modules", ".next", "report-bundle-size.js", "gql/**/*"]
+    "ignore": ["node_modules"]
   }
 }
